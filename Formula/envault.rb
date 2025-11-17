@@ -4,26 +4,26 @@
 class Envault < Formula
   desc "Secure, local-first environment variable management"
   homepage "https://envault.net"
-  version "0.1.0"
+  version "0.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.0/envault-darwin-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.5/envault-darwin-arm64"
+      sha256 "2604369a1e4da685843e7a9f369ab9813985ae9930c16f7c274a31a9f60fdb83"
     else
-      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.0/envault-darwin-amd64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.5/envault-darwin-amd64"
+      sha256 "0943c8e00bedb0d579a5445ef97cf97e40582b77ac7d66dbd1967c3be5e9e1b5"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.0/envault-linux-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.5/envault-linux-arm64"
+      sha256 "1210fa3cd63df428e8ab632b827aabd30d353c3832bd762ac3e074f9e0c95bf5"
     else
-      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.0/envault-linux-amd64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/dj-pearson/vault-verse/releases/download/v0.1.5/envault-linux-amd64"
+      sha256 "53020f906a1c870d97cf630e8b841a2ba8db183855dd4a8c69ee436b3541cf09"
     end
   end
 
